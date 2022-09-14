@@ -61,6 +61,6 @@ combined_sparcs.dropna(inplace=True) # Remove NAN rows
 
 print(combined_sparcs.sample(100))
 
-combined_sparcs.to_csv('data/clean/Combined_Sparcs.csv')
+combined_sparcs.to_csv('data/Combined_Sparcs.csv')
 
 
